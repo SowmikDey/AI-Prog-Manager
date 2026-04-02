@@ -38,7 +38,6 @@ def lines(raw: str) -> list:
 def _project_context(project_id: str) -> str:
     """
     Builds a text block describing the project.
-    C++ analogy: serialize(Project* p) -> string
     """
     if not project_id or str(project_id).lower() in {"null", "none", ""}:
         return "No project context available."
