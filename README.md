@@ -6,8 +6,8 @@ It reads one message from `input.json`, detects intent, builds an L1 plan, execu
 ## 1) Prerequisites
 
 - Python `3.10+` (recommended: `3.11` or `3.12`)
-- Access to your Neon PostgreSQL database
-- Groq API key (optional but recommended for richer outputs)
+- Access to  Neon PostgreSQL database
+- Groq API key
 
 ## 2) Dependency Installation
 
